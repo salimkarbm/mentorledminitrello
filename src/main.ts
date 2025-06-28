@@ -29,7 +29,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Mentorled mini trello API')
     .setDescription(
-      'This API is used for mentorled mini trello.\n\n📘 [GitHub Repository](https://github.com/salimkarbm/mentorleduserauth)\n\n🔗 [Swagger UI](https://mentorleduserauth.onrender.com)',
+      'This API is used for mentorled mini trello.\n\n📘 [GitHub Repository](https://github.com/salimkarbm/mentorledminitrello)\n\n🔗 [Swagger UI](https://mentorledminitrello.onrender.com)',
     )
     .setVersion('1.0')
     .addBearerAuth()
