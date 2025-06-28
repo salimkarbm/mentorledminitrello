@@ -1,0 +1,16 @@
+export const SUCCESS_MESSAGES = {
+  REGISTRATION_SUCCESSFUL: 'User registered successfully',
+  LOGIN_SUCCESSFUL: 'User logged in successfully',
+  USER_PROFILE_FETCHED: 'User profile fetched successfully',
+  BOARD_CREATED: 'Board created successfully',
+  BOARD_FETCHED: 'Board fetched successfully',
+  BOARD_UPDATED: 'Board updated successfully',
+  BOARD_DELETED: 'Board deleted successfully',
+  BOARD_MEMBER_ADDED: 'Board member added successfully',
+  BOARD_MEMBER_REMOVED: 'Board member removed successfully',
+  TASK_CREATED: 'Task created successfully',
+  TASK_FETCHED: 'Task fetched successfully',
+  TASK_UPDATED: 'Task updated successfully',
+  TASK_DELETED: 'Task deleted successfully',
+  TASK_STATUS_UPDATED: 'Task status updated successfully',
+};
