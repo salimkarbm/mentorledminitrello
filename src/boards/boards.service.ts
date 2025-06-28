@@ -20,6 +20,7 @@ export class BoardsService {
     try {
       const boardExists = await this.BoardsRepository.findOne({
         title: createPostDto.title,
+        active: true,
       });
       if (boardExists) {
         throw new BadRequestException(ERROR_MESSAGES.BOARD_ALREADY_EXIST);
